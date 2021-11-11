@@ -3,4 +3,4 @@ project(clgittest C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(hw main.c)
+add_executable(hw main.c helpers.c)
