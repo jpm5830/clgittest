@@ -1,3 +1,5 @@
+/* CLion Git Test Program */
+
 #include <stdio.h>
 extern int add2ints(int, int);
 
