@@ -4,6 +4,7 @@ extern int add2ints(int, int);
 extern int mult2ints(int, int);
 
 extern int sub2ints(int, int);
+extern char done_string[];
 
 int main() {
     printf("Hello, World, as usual!\n");
@@ -14,8 +15,9 @@ int main() {
     int ans = add2ints(one, two);
     printf("one + two = %d\n", ans);
     ans = mult2ints(one, two);
-    printf("one * two = %d\n", ans);
+    printf("one * two = %d, you dig?\n", ans);
     ans = sub2ints(one, two);
-    printf("one - two = %d\n", ans);
+    printf("one - two = %d, dig it?\n", ans);
+    printf("\n%s\n", done_string);
     return 0;
 }
