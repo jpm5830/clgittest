@@ -9,3 +9,7 @@ int add2ints(int a, int b) {
 int mult2ints(int a, int b) {
     return a * b;
 }
+
+int sub2ints(int a, int b) {
+    return a - b;
+}

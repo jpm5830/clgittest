@@ -3,6 +3,8 @@ extern int add2ints(int, int);
 
 extern int mult2ints(int, int);
 
+extern int sub2ints(int, int);
+
 int main() {
     printf("Hello, World, as usual!\n");
     printf("I've added a new line!\n");
@@ -13,5 +15,7 @@ int main() {
     printf("one + two = %d\n", ans);
     ans = mult2ints(one, two);
     printf("one * two = %d\n", ans);
+    ans = sub2ints(one, two);
+    printf("one - two = %d\n", ans);
     return 0;
 }
