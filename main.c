@@ -19,6 +19,7 @@ int main() {
     int two = 2;
     int ans = add2ints(one, two);
     printf("one + two = %d\n", ans);
+    printf("Master: some new stuff\n");
     printf("dev: Print some new stuff\n");
     ans = mult2ints(one, two);
     printf("one * two = %d, you dig?\n", ans);
