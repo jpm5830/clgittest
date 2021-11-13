@@ -1,6 +1,6 @@
-/* CLion Git Test Program
+/* CLion Git Test Program 
  * Author: Jim Morrissey
- * Updated: 11/12/2021
+ * Updated: 11/12/2021 
  */
 
 #include <stdio.h>
@@ -19,7 +19,6 @@ int main() {
     int two = 2;
     int ans = add2ints(one, two);
     printf("one + two = %d\n", ans);
-    printf("dev: Print some new stuff\n");
     ans = mult2ints(one, two);
     printf("one * two = %d, you dig?\n", ans);
     ans = sub2ints(one, two);
