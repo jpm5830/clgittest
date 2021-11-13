@@ -1,4 +1,7 @@
-/* CLion Git Test Program - cool */
+/* CLion Git Test Program 
+ * Author: Jim Morrissey
+ * Updated: 11/12/2021 
+ */
 
 #include <stdio.h>
 extern int add2ints(int, int);
